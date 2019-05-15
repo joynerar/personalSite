@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="generator"
+    content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Adam Joyner</title>
+    <!-- CSS  -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+	<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  </head>
+  <body>
+  <!--  Nav Bar         -->
+  
+  <div class="navbar-fixed">
+    <nav class="white" role="navigation">
+      <div class="nav-wrapper container">
+
+        <a id="logo-container" href="#" class="brand-logo">Adam Joyner</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+		  <li><a href="#tech">Technologies</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </div>
+  <ul id="nav-mobile" class="sidenav">
+        <li><a href="#">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+		  <li><a href="#tech">Technologies</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+    </ul>
+  <!--            Top Slider              -->
+  <div class="slider">
+    <ul class="slides">
+      <li>
+      <img src="miami.jpg" alt="background Image" /> 
+      <!-- image text 
+      <div class="caption center-align">
+        <h3>This is our big Tagline!</h3>
+        <h5 class="light grey-text text-lighten-3">Here&#39;s our small slogan.</h5>
+      </div>
+	  -->
+	  </li>
+	  
+      <li>
+      <img src="keyboard.jpg" alt="background Image" /> 
+      <!-- image text 
+      <div class="caption left-align">
+        <h3>This is our big Tagline!</h3>
+        <h5 class="light grey-text text-lighten-3">Here&#39;s our small slogan.</h5>
+      </div>-->
+	  </li>
+    </ul>
+  </div>
+  <!--              About Me                -->
+  <div id="about" class="container">
+    <div class="section">
+      <!--   Icon Section  -->
+      <div class="row">
+        <h3>About me</h3>
+      </div>
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="icon-block">
+            <h2 class="center brown-text">
+              <i class="fas fa-user-astronaut"></i>
+            </h2>
+            <h5 class="center">Software Engineer</h5>
+            <p class="flow-text light">Master of randomly hitting the keyboard and magically getting results.
+			Computer Science student at Miami University</p>
+          </div>
+        </div>
+        <div class="col s12 m6 center-align">
+			<img class="materialboxed" style="width:65%" src="adam.jpg" alt="Adam">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--            Image           -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="miami2.jpg" alt="background Image"/>
+    </div>
+  </div>
+  <!--            Technologies            -->
+  <div id="tech" class="container">
+    <div class="section">
+      <!--   Icon Section  -->
+      <div class="row">	
+        <h3>Technologies</h3>
+      </div>
+		<div class="row center-align flow-text truncate">
+			<div class="col s4 m2">
+				<div class="card-panel grey">
+					<span class="white-text">PHP</span>
+				</div>
+			</div>
+			<div class="col s4 m2">
+				<div class="card-panel grey">
+					<span class="white-text">C++</span>
+				</div>
+			</div>
+			<div class="col s4 m2">
+				<div class="card-panel grey">
+					<span class="white-text">C#</span>
+				</div>
+			</div>
+			<div class="col s4 m2">
+				<div class="card-panel grey">
+					<span class="white-text">Python</span>
+				</div>
+			</div>
+			<div class="col s4 m2">
+				<div class="card-panel grey">
+					<span class="white-text">mySQL</span>
+				</div>
+			</div>
+			<div class="col s4 m2">
+				<div class="card-panel grey">
+					<span class="white-text">MSSQL</span>
+				</div>
+			</div>
+			<div class="col s4 m2">
+				<div class="card-panel grey">
+					<span class="white-text">Java</span>
+				</div>
+			</div>
+			<div class="col s4 m2">
+				<div class="card-panel grey">
+					<span class="white-text">HTML5</span>
+				</div>
+			</div>
+		</div>
+    </div>
+  </div>
+  <!--            Image           -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="miami3.jpg" alt="background Image" />
+    </div>
+  </div>
+  <!--            Projects                -->
+  <div class="container">
+    <div class="section">
+      <!--   Icon Section  -->
+      <div class="row">
+        <h3 id="projects">Projects</h3>
+      </div>
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text">
+			 <a href="https://github.com/joynerar/CSE385FinalProject" target="_blank" class="btn-floating pulse"><i class="fab fa-github" aria-hidden="true"></i></a>
+			 <a href=""  class="btn-floating pulse"><i class="fas fa-globe-americas" aria-hidden="true"></i></a>
+            </h2>
+            <h5 class="center">Armstrong Student Involvement Tracker</h5>
+            <p class="light">This project my team created an android application that logs the
+			amount of hours that students volunteer at armstrong student center by signing in
+			and out of an android tablet fixed to the wall. Organization leaders were then able
+			to log into a web portal that displayed different reports such as average student
+			involvement, weekly hours logged, total hours and others.
+			</p>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text">
+              <a href="https://github.com/pkumar3/cse201_project" target="_blank" class="btn-floating pulse"><i class="fab fa-github" aria-hidden="true"></i></a>
+            </h2>
+            <h5 class="center">BuyerBorard</h5>
+            <p class="light">This is a php laravel project MVP. The intent of the business plan was to operate like ebay or 
+			amazon, but in reverse. So, people looking for items were able to post a name, description and sample images of
+			an item they were looking to buy, then sellers were able to log in to the website and search for items they own.</p>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text">
+              <a  href="https://github.com/joynerar/CSE381hw3b" target="_blank" class="btn-floating pulse"><i class="fab fa-github" aria-hidden="true"></i></a>
+            </h2>
+            <h5 class="center">Web Client</h5>
+            <p class="light">This page created a simple web client that sends a http request to a web service and shows
+			the response as well as the content that is sent.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--            Image           -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="miami2.jpg" alt="background Image" />
+    </div>
+  </div>
+  <!--            Contact me form         -->
+  <div class="container">
+    <div class="section">
+      <!--   Icon Section  -->
+      <div class="row">
+        <h3 id="contact">Contact Me</h3>
+      </div>
+      <div class="row">
+        <form class="col s12" action="https://formspree.io/joynerar@miamioh.edu" method="POST" />
+          <div class="row">
+            <div class="input-field col s6">
+          <input id="first_name" type="text" name="fn" class="validate" required>
+			  <label for="first_name">* First Name</label>
+			</div>
+			<div class="input-field col s6">
+			  <input id="last_name" type="text" name="ln" class="validate" required>
+			  <label for="last_name">* Last Name</label>
+        </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s6">
+            <input id="email" type="email" name="_replyto" class="validate" required /> 
+            <label for="email">* Email</label></div>
+			<div class="input-field col s6">
+            <input id="tel" type="tel" name="phoneNum" class="validate"/> 
+            <label for="tel">Phone Number</label></div>
+          </div>
+		  <div class="row">
+            <div class="input-field col s12">
+            <textarea id="msg" name="message" class="materialize-textarea" data-length="240" required></textarea> 
+            <label for="msg">* Message</label></div>
+          </div>
+			<button class="btn waves-effect waves-light" type="submit" name="action">Submit
+				<i class="material-icons right">send</i>
+			</button>
+			<input type="hidden" name="_subject" value="Contact Me Submission">
+			<input type="text" name="_gotcha" style="display:none" />
+        </form>
+      </div>
+    </div>
+  </div>
+  <!--            Footer          -->
+  <footer class="page-footer grey lighten-1">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Welcome to the end</h5>
+          <p class="grey-text text-lighten-4">Thanks for checking me out. Want another read through? <a href="#">Return to the top.</a></p>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Related Links</h5>
+          <ul>
+            <li>
+              <a class="white-text" target="_blank" href="https://www.linkedin.com/in/adam-joyner-a36724136/">LinkedIn</a>
+            </li>
+            <li>
+              <a class="white-text" target="_blank" href="joynerResume.pdf">Resume</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">&copy;Adam Joyner 2019</div>
+    </div>
+  </footer>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script> 
+  <script src="js/materialize.js"></script> 
+  <script src="js/init.js"></script></body>
+</html>
